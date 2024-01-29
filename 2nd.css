@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+video {
+    max-width: 100%;
+}
+.navbar-nav li {
+    margin-right: 10px; /* Add a margin to the right of each navbar element */
+}
+
+button {
+    font-size: 16px;
+    margin: 5px;
+}
+/* Default styles */
+
+
+
+#videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#customVideo {
+    max-width: 100%;
+    max-height: 100%;
+  
+    
+}
+
+/* Media queries for responsiveness */
+
+@media only screen and (max-width: 600px) {
+   
+    #customVideo {
+        width: 100%;
+        height: auto;
+    }
+}
